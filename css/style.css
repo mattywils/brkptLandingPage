@@ -314,7 +314,7 @@ input[type="submit"] {
 	display: inline-block;
 	position: absolute;
 	top: 0;
-	background-color: #0a9fd8;
+	background-color: #f36510;
 	border-radius: 100%;
 	-webkit-animation: bouncee 2.0s infinite ease-in-out;
 	animation: bouncee 2.0s infinite ease-in-out;
