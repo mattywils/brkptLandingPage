@@ -1798,6 +1798,11 @@ input[type="submit"] {
 	padding: 13px 85px;
 }
 
+.btn-larger {
+	font-size: 14px;
+	padding: 13px 30px;
+}
+
 .btn-large {
 	font-size: 14px;
 	padding: 9px 22px;
