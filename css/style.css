@@ -42,12 +42,12 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
     line-height: 21px;
-	font-weight: 300;
+	font-weight: 400;
 	color: #888;
 	
 }
 strong, b {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 img {
@@ -85,7 +85,7 @@ i {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 600;
+	font-weight: 400;
 	margin: 0;
 	color: #75787B;
 }
@@ -129,12 +129,12 @@ p {
 }
 
 p strong {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .fittext {
 	font-size: 38px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 46px;
 	color: rgba(0,0,0, 0.8);
 }
@@ -165,7 +165,7 @@ a.main-button, input[type="submit"] {
     color: #fff;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     text-transform: uppercase;
     padding: 6px 16px;
     border-radius: 3px;
@@ -579,7 +579,7 @@ ul.social-list li:last-child a i {
 	color: #999;
 	display: block;
     font-size: 14px;
-	font-weight: 300;
+	font-weight: 400;
     padding: 28px 15px 28px 15px;
 	overflow: hidden;
     transition: all 0.3s ease-in-out;
@@ -804,12 +804,12 @@ ul.social-list li:last-child a i {
 }
 
 .page-banner h2 {
-	font-weight: 500;
+	font-weight: 700;
 	text-transform: uppercase;
 }
 
 .page-banner p {
-	font-weight: 300;
+	font-weight: 400;
 }
 
 ul.breadcrumbs {
@@ -824,7 +824,7 @@ ul.breadcrumbs {
 ul.breadcrumbs li {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 13px;
-	font-weight: 300;
+	font-weight: 400;
     margin-left: 3px;
 	color: #999;
 	float: left;
@@ -847,7 +847,7 @@ ul.breadcrumbs li:first-child:before {
 
 ul.breadcrumbs li a {
 	color: #888;
-	font-weight: 600;
+	font-weight: 700;
 	transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -857,7 +857,7 @@ ul.breadcrumbs li a {
 label {
 	font-size: 13px;
 	color: #aaa;
-	font-weight: 300;
+	font-weight: 400;
 	cursor: pointer;
 }
 
@@ -937,7 +937,7 @@ input[type="submit"] {
 .error-page h3 {
     font-size: 64px;
     line-height: 70px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 .error-page p {
@@ -1034,7 +1034,7 @@ input[type="submit"] {
 }
 
 .tp-caption.boldest_font_weight {
-	font-weight: 900;
+	font-weight: 700;
 }
 
 .tp-caption.bold_font_weight {
@@ -1042,11 +1042,11 @@ input[type="submit"] {
 }
 
 .tp-caption.regular_font_weight {
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .tp-caption.light_font_weight {
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .tp-caption.dark_font_color {
@@ -1157,7 +1157,7 @@ input[type="submit"] {
 	font-size: 13px;
 	color: #75787B;
 	margin-bottom: 2px;
-	font-weight: 600;
+	font-weight: 700;
 }
 
 .progress {
@@ -1233,7 +1233,7 @@ input[type="submit"] {
 }
 
 .call-action h2.primary {
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .call-action h2.primary strong {
@@ -1466,7 +1466,7 @@ input[type="submit"] {
 	width: 46px;
 	height: 46px;
 	font-size: 28px;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 42px;
 	text-align: center;
 	border-radius: 2px;
@@ -1482,7 +1482,7 @@ input[type="submit"] {
 	width: 48px;
 	height: 48px;
 	font-size: 28px;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 48px;
 	text-align: center;
 	border-radius: 2px;
@@ -1555,7 +1555,7 @@ input[type="submit"] {
 .milestone-block .milestone-number {
 	font-size: 26px;
 	line-height: 28px;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .milestone-block .milestone-text {
@@ -1651,13 +1651,13 @@ input[type="submit"] {
 .pricing-table .plan-price .price-value {
 	font-size: 38px;
 	line-height: 40px;
-	font-weight: 600;
+	font-weight: 700;
 	color: #75787B;
 }
 
 .pricing-table .plan-price .price-value span {
 	font-size: 18px;
-	font-weight: 300;
+	font-weight: 400;
 	line-height: 18px;
 }
 
@@ -1706,7 +1706,7 @@ input[type="submit"] {
 	display: inline-block;
 	color: #fff;
 	margin-right: 5px;
-	font-weight: 300;
+	font-weight: 400;
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
     -moz-border-radius: 3px;
@@ -2435,7 +2435,7 @@ ul.icons-list li i {
 
 .service-box .read-more {
 	margin-top: 4px;
-	font-weight: 500;
+	font-weight: 700;
 	margin-left: 2px;
 }
 
@@ -2596,7 +2596,7 @@ ul.icons-list li i {
 
 .classic-testimonials .testimonial-content:before {
 	content: "\201C";
-	font-weight: 300;
+	font-weight: 400;
 	position: absolute;
 	font-size: 30px;
 	opacity: 0.5;
@@ -2623,7 +2623,7 @@ ul.icons-list li i {
 }
 
 .classic-testimonials .testimonial-author span {
-	font-weight: 600;
+	font-weight: 700;
 }
 
 
@@ -2671,7 +2671,7 @@ ul.icons-list li i {
 	right: 0;
 	color: #fff;
 	font-size: 13px;
-	font-weight: 300;
+	font-weight: 400;
 	padding: 1px 10px;
 	border-radius: 2px;
 	-webkit-border-radius: 2px;
@@ -2836,7 +2836,7 @@ ul.icons-list li i {
 }
 
 .big-title h1 strong, .big-title h2 strong {
-	font-weight: 800;
+	font-weight: 700;
 }
 
 .big-title .title-desc {
@@ -3305,7 +3305,7 @@ ul.icons-list li i {
 
 .post-content h2 a {
 	color: #75787B;
-	font-weight: 500;
+	font-weight: 700;
 	transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
@@ -3435,7 +3435,7 @@ ul.post-meta li, ul.post-meta li a {
 }
 
 .post-content h2 {
-	font-weight: 500;
+	font-weight: 700;
 }
 
 .post-bottom {
@@ -3571,7 +3571,7 @@ ul.post-meta li, ul.post-meta li a {
 }
 
 #comments .comments-title {
-	font-weight: 500;
+	font-weight: 700;
 	margin-bottom: 20px;
 }
 
@@ -3619,7 +3619,7 @@ ul.post-meta li, ul.post-meta li a {
 .comment-content .comment-meta span:after {
 	content: "-";
 	margin: 0 5px;
-	font-weight: 100;
+	font-weight: 400;
 	color: #888;
 }
 
@@ -3638,7 +3638,7 @@ ul.post-meta li, ul.post-meta li a {
 }
 
 #respond .respond-title {
-	font-weight: 500;
+	font-weight: 700;
 	margin-bottom: 15px;
 }
 
@@ -3782,7 +3782,7 @@ ul.post-meta li, ul.post-meta li a {
 	font-size: 13px;
 	line-height: 19px;
 	margin-bottom: 5px;
-	font-weight: 300;
+	font-weight: 400;
 }
 
 .sidebar .widget-popular-posts .widget-content span {
