@@ -1,3 +1,4 @@
+
 /* CSS Document */
 
 /*
@@ -53,6 +54,24 @@ strong, b {
 img {
 	max-width: 100%;
 	height: auto;
+}
+
+ul.servicesList li:before {
+    content: '';
+    background-color: #E87722 ;
+    display: inline-block;
+    position: relative;
+    height: 6px;
+    width: 6px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    margin-right: 4px;
+    top: -3px;
+	margin-left:45px;
 }
 
 ul, ol {
@@ -796,7 +815,6 @@ ul.social-list li:last-child a i {
 /*------------------------------------------*/
 /*	   03 - Main Page Elements
 /*------------------------------------------*/
-
 .page-banner {
     padding: 30px 0;
     background: #f6f6f6;
