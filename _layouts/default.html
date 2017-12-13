@@ -1,0 +1,175 @@
+<!doctype html>
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><html lang="en" class="no-js"> <![endif]-->
+<html lang="en">
+<head>
+	<title>{{ page.title | escape }}</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/settings.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css" media="screen">
+	<link rel="stylesheet" type="text/css" href="css/animate.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="css/breakpoint-orange.css" title="breakpoint-orange" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/fontello.css" media="screen">
+	<!--[if IE 7]><link rel="stylesheet" href="css/fontello-ie7.css"><![endif]-->
+	<link rel="stylesheet" type="text/css" href="css/breakpoint-style.css" media="screen">
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="js/modernizrr.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/nivo-lightbox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="js/jquery.appear.js"></script>
+    <script type="text/javascript" src="js/count-to.js"></script>
+    <script type="text/javascript" src="js/jquery.textillate.js"></script>
+    <script type="text/javascript" src="js/jquery.lettering.js"></script>
+    <script type="text/javascript" src="js/jquery.easypiechart.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="js/jquery.parallax.js"></script>
+	<script type="text/javascript" src="js/mediaelement-and-player.js"></script>
+    <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+	<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+
+	<!--[if IE 8]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+</head>
+<body>
+    
+    <div id="container">
+        
+        <!-- Start Header -->
+		<div class="hidden-header"></div>
+        <header class="clearfix">
+            
+            <!-- Start Top Bar -->
+			<div class="top-bar">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+                            <!-- Start Contact Info -->
+							<ul class="contact-details">
+                                <li><a href="mailto:info@breakpoint.technology"><i class="icon-mail-2"></i> info@breakpoint.technology</a></li>
+                            </ul>
+                            <!-- End Contact Info -->
+						</div>
+						<div class="col-md-6">
+                            <!-- Start Social Links -->
+							<ul class="social-list">
+								<li>
+									<a class="linkdin sh-tooltip" data-placement="bottom" title="Linkedin" href="https://www.linkedin.com/company/breakpoint-technology/"><i class="icon-linkedin"></i></a>
+								</li>
+							</ul>
+                            <!-- End Social Links -->
+						</div>
+					</div>
+				</div>
+			</div>
+            <!-- End Top Bar -->
+          
+			<!-- Start Header ( Logo & Naviagtion ) -->
+			<div class="navbar navbar-default navbar-top">
+				<div class="container">
+					<div class="navbar-header">
+                        <!-- Stat Toggle Nav Link For Mobiles -->
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+							<i class="icon-menu-1"></i>
+						</button>
+                        <!-- End Toggle Nav Link For Mobiles -->
+						<a class="navbar-brand" href="index.html"><img alt="" src="images/Breakpoint_Technology.png"></a>
+					</div>
+					<div class="navbar-collapse collapse">
+                        <!-- Start Navigation List -->
+						<ul class="nav navbar-nav navbar-right">
+							<li>
+								<a href="{% link index.md %}">Home</a>
+							</li>
+							<li>
+								<a href="{% link microsoft-365.md %}">What We Do</a>
+								<ul class="dropdown">
+									<li><a href="{% link microsoft-365.md %}">Microsoft 365</a></li>
+                                    <li><a href="{% link cloud-service-provider.md %}">Cloud Service Provider</a></li>
+                                    <li><a href="{% link consulting-services.md %}">Consulting Services</a></li>
+								</ul>
+							</li>
+                            <li>
+								<a href="/#WhoWeAre">Who We Are</a>
+							</li>
+							<li>
+								<a href="{% link blog.md %}">Blog</a>
+							</li>
+						</ul>
+                        <!-- End Navigation List -->
+					</div>
+				</div>
+			</div>
+            <!-- End Header ( Logo & Naviagtion ) -->
+          
+		</header>
+		<!-- End Header -->
+
+		{{ content }}
+		
+		<!-- Start Footer -->
+		<footer>
+				<div class="container">
+					<div class="row footer-widgets">
+					  
+						<!-- Start Contact Widget -->
+						<div class="col-md-3">
+							<div class="footer-widget contact-widget">
+								<h4>Contact info<span class="head-line"></span></h4>
+								<ul>
+									<li><span>Phone Number:</span> <a href="tel:234-567-8901">234-567-8901</a></li>
+									<li><span>Email:</span> <a href="mailto:info@breakpoint.technology">info@breakpoint.technology</a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- End Contact Widget -->
+						
+						<div class="col-md-9">
+							<div class="footer-widget post-content">
+								<h4>We Are Hiring!<span class="head-line"></span></h4>
+								<p>Rockstar ninja dino lovers that eat css for breakfast!</p>
+								<p><a href="#" class="main-button">Apply Now</a></p>
+							</div>
+						</div>
+
+					</div>
+					<!-- End Subscribe & Social Links Widget -->
+				  
+					<!-- Start Copyright -->
+					<div class="copyright-section">
+						<div class="row">
+							<div class="col-md-6">
+								<p>© {{ 'now' | date: "%Y" }} Breakpoint Technology -  All Rights Reserved</p>
+							</div>
+						</div>
+					</div>
+					<!-- End Copyright -->
+					
+				</div>
+			</footer>
+			<!-- End Footer -->
+
+	</div>
+	
+	<!-- Go To Top Link -->
+    <a href="#" class="back-to-top"><i class="icon-up-open-1"></i></a>
+    
+    <div id="loader">
+    	<div class="spinner">
+          <div class="dot1"></div>
+          <div class="dot2"></div>
+        </div>
+	</div>
+	
+</body>
+</html>

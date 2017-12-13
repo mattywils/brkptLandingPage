@@ -1,0 +1,14 @@
+/* Prevent breakpoint logo from being larger then 200px. */
+.navbar-brand {
+    max-width: 200px;
+}
+
+/* Update navbar padding to fit with bigger logo size. */
+.navbar-default .navbar-nav > li > a {
+    padding: 35px 15px 35px 15px;
+}
+
+/* Change loader spinner color to be breakpoint orange.0 */
+.dot1, .dot2 {
+	background-color: #E87722;
+}
